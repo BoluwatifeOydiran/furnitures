@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comfy House</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="styles/fontawesome.min.css" />
+
+    <!-- custonm css -->
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <!-- navbar Begins -->
+
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+        <img src="./images/logo.svg" alt="Comfy House" />
+        <div class="cart-btn">
+          <div class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+          </div>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+    <!-- Hero  -->
+
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">Furniture Collections</h1>
+        <button class="banner-btn">Shop Now</button>
+      </div>
+    </header>
+    <!-- Hero ends -->
+
+    <!-- Products  -->
+    <section class="products">
+      <div class="section-title">
+        <h2>Our Products</h2>
+      </div>
+      <div class="products-center">
+        <!-- single Product -->
+        <!-- content pushed dynamically in javascript file main.js line 75 -->
+        <!-- Single product ends -->
+      </div>
+    </section>
+    <!-- Product ends -->
+
+    <!-- Cart -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>Your Cart</h2>
+        <div class="cart-content">
+          <!-- cart Item -->
+          <!-- passing this from the javascript file  in main.js line 84 -->
+          <!-- cart Item ends -->
+        </div>
+        <div class="cart-footer">
+          <h3>Your total: $ <span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">Clear cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- Cart ends -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
